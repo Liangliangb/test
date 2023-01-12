@@ -1,0 +1,21 @@
+$ git config -l     # 查看状态
+$ git config --global user.name "Liangliang"    # 设置名字
+$ git config --global user.email "liang@163.com"    # 设置邮箱
+# 生成共享密钥
+$ ssh-keygen -t rsa
+# ctrl+ A 复制密钥
+# 到github 中的SSH and GPG keys --- SSH keys --- 创建一个新的将密钥复制过去
+# 回到git  测试自己的git 是否与GitHub连接成功
+$ ssh -T git@github.com
+
+## 将本地文件上传到GitHub
+# 下载github上的项目，在文件夹空白处右击打开git，复制GitHub项目的https，
+$ git clone https://github.com/Liangliangb/test.git
+# 上传自己的文件，
+$ git status   # 查看文件的上传状况
+
+
+
+
+
+
